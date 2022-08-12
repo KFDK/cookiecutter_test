@@ -9,6 +9,11 @@ import torchvision.transforms as transforms
 from PIL import Image
 from torch import nn
 from torch.utils.data import DataLoader
+import os
+
+pdb.set_trace()
+print(os.getcwd())
+
 
 from src.models.model import CNN
 
